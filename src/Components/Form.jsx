@@ -32,13 +32,13 @@ const Form = () => {
       
     <form onSubmit={handleSubmit}>
       <input
-        type="text" placeholder="nombre"
+        type="text" placeholder="Full name"
         onChange={(event) =>
           setUsuario({ ...usuario, nombre: event.target.value })
         }
       />
       <input
-        type="text" placeholder="email"
+        type="text" placeholder="Email"
         onChange={(event) =>
           setUsuario({ ...usuario, email: event.target.value })
         }
